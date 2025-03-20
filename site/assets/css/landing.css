@@ -3,7 +3,7 @@
     font-weight: 900;
     src: url(pre/Pretendard-Black.woff) format('woff');
 }
-@font-face {
+@font-face {url(http://127.0.0.1:5500/site/assets/images/slider.png)
     font-family: "Pretendard";
     font-weight: 800;
     src: url(pre/Pretendard-ExtraBold.woff) format('woff');
@@ -199,8 +199,13 @@ img{
         letter-spacing: -0.025em;
     }
 }
-
-
+.slider{
+    width: 100%;
+    overflow: hidden;
+}
+.slider-center{
+    width: 450px;
+}
 
 
 
