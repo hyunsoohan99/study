@@ -1,0 +1,280 @@
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 900;
+    src: url(pre/Pretendard-Black.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 800;
+    src: url(pre/Pretendard-ExtraBold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 700;
+    src: url(pre/Pretendard-Bold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 600;
+    src: url(pre/Pretendard-SemiBold.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 500;
+    src: url(pre/Pretendard-Medium.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 400;
+    src: url(pre/Pretendard-Regular.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 300;
+    src: url(pre/Pretendard-Light.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 200;
+    src: url(pre/Pretendard-ExtraLight.woff) format('woff');
+}
+@font-face {
+    font-family: "Pretendard";
+    font-weight: 100;
+    src: url(pre/Pretendard-Thin.woff) format('woff');
+}
+
+
+
+body{
+    font-family: "Pretendard";
+}
+
+.d-flex{
+    display: flex;
+}
+
+nav {
+    width: 1774px;
+    margin: 0 auto;
+    padding: 26px 0;
+    justify-content: space-between;
+}
+
+.logo>h1{
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+.navi{
+    gap: 0 48px;
+    /* display flex에만 적용된다 */
+    /* 첫번째 값은 상하 두번째는 좌우 */
+}
+
+.navi a{
+    color: #000;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 140%;
+    font-weight: 600;
+    letter-spacing: -0.025em;
+}
+
+.icon ul{
+    gap: 0 11px;
+}
+
+.exist{
+    width: 28px;
+    height: 28px;
+}
+
+.none{
+    display: none;
+    width: 28px;
+    height: 28px;
+}
+
+img{
+    width: 100%;
+}
+
+
+@media(max-width:1773px){
+    nav{
+        width: 100%;
+        padding: 26px 24px;
+    }
+    .none{
+        display: none;
+    }
+}
+
+
+@media(max-width:1280px){
+    .icon{
+        display: none;
+    }
+    .navi{
+        gap: 0 28px;
+    }
+    nav{
+        justify-content: space-between;
+        padding: 24px 0;
+        width: 80%;
+
+    }
+    .logo>h1{
+        font-size: 18px;
+        line-height: 140%;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+    }
+    .navi a{
+        color: #000;
+        text-decoration: none;
+        font-size: 18px;
+        line-height: 140%;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+    }
+    .icon{
+        display: none;
+    }
+}
+
+
+@media(max-width: 768px){
+    .icon{
+        display: block;
+    }
+
+    .exist{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .navi{
+        display: none;
+    }
+    nav{
+        width: 80%;
+        /* margin: 0 auto; */
+    }
+    .logo>h1{
+        font-size: 18px;
+        line-height: 140%;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+    }
+}
+
+
+@media(max-width: 576px){
+    .icon{
+        display: block;
+    }
+
+    .exist{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .navi{
+        display: none;
+    }
+    nav{
+        width: 80%;
+        /* margin: 0 auto; */
+    }
+    .logo>h1{
+        font-size: 18px;
+        line-height: 140%;
+        font-weight: 600;
+        letter-spacing: -0.025em;
+    }
+}
+
+
+
+
+
+
+/* @media(max-width: 560px){
+    .icon{
+        display: block;
+    }
+
+    .exist{
+        display: none;
+    }
+    .none{
+        display: block;
+    }
+    .navi{
+        display: none;
+    }
+    nav{
+        width: 80%;
+    }
+
+} */
+
+/* @media(max-width:1280px){
+    .icon{
+        display: none;
+    }
+    .navi .a{
+        font-size: 18px;
+    }
+} */
+
+/* @media(max-width:1774px){
+    nav{
+        width: 100%;
+        padding: 26px 24px;
+    }
+    .none{
+        display: none;
+    }
+} */
+
+/* @media(min-width:600px){ */
+    /* .navi{
+        color: skyblue;
+    }
+}
+
+@media only screen and(min-width:600px){
+    body{
+        background-color: blue;
+    }
+}
+
+
+@media (min-width:600px) and (max-width:1024px){
+    body{
+        background-color: blue;
+    }
+}
+
+@media(max-width:540px){
+
+}
+
+@media(max-width:480px){
+
+}
+
+@media(max-width:368px){
+
+}
+
+@media(max-width:320px){
+
+}
